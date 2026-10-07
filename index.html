@@ -29,8 +29,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=final1" />
-    <script src="script.js?v=final2" defer></script>
+    <link rel="stylesheet" href="styles.css?v=final3" />
+    <script src="script.js?v=final3" defer></script>
     <noscript>
       <style>
         @media (max-width: 1180px) {
@@ -69,12 +69,13 @@
     <header class="site-header">
       <div class="container header__inner">
         <a class="brand" href="#inicio" aria-label="VeloBox, inicio">
-          <span class="brand__mark" aria-hidden="true"
-            ><span></span><span></span
-          ></span>
-          <span class="brand__word"
-            >Velo<span>Box</span><small>TU MUNDO MÁS CERCA</small></span
-          >
+          <img
+            class="brand__logo"
+            src="logo-velobox.webp"
+            width="1000"
+            height="379"
+            alt=""
+          />
         </a>
         <button
           class="menu-toggle"
@@ -280,57 +281,92 @@
               <div class="eyebrow">
                 <span class="eyebrow__line"></span> COMPRAR AFUERA, MÁS FÁCIL
               </div>
-              <h2>Tres pasos.<br /><em>Una gran compra.</em></h2>
+              <h2>Cuatro pasos.<br /><em>De la tienda al retiro.</em></h2>
             </div>
             <p>
-              Encontrá eso que buscás, usá tu casilla VeloBox y dejá que te
-              acompañemos hasta el retiro de tu paquete.
+              Pedí tu casilla antes de comprar, seguí las instrucciones de
+              VeloBox y consultá el envío por WhatsApp hasta coordinar el
+              retiro.
             </p>
           </div>
           <div class="steps">
-            <article class="step-card">
+            <article class="step-card step-card--featured">
               <span class="step-card__number">01</span>
-              <div class="step-card__icon" aria-hidden="true">↗</div>
-              <h3>Elegí tu tienda</h3>
+              <div class="step-card__icon" aria-hidden="true">⌖</div>
+              <h3>Pedí tu casilla</h3>
               <p>
-                Buscá tus productos en tus tiendas favoritas de Estados Unidos o
-                China.
+                Elegí USA o China y solicitá la dirección antes de comprar. Te
+                compartimos los datos e instrucciones para usarla.
               </p>
               <a
-                href="https://wa.me/595971390000?text=Hola%20VeloBox%2C%20%C2%BFc%C3%B3mo%20uso%20mi%20casilla%3F"
+                href="https://wa.me/595971390000?text=Hola%20VeloBox%2C%20quiero%20solicitar%20mi%20casilla%20para%20comprar%20en%20USA%20o%20China."
                 target="_blank"
                 rel="noopener noreferrer"
-                >Consultá tu casilla <span aria-hidden="true">→</span></a
+                >Solicitar casilla <span aria-hidden="true">↗</span></a
               >
             </article>
-            <article class="step-card step-card--featured">
+            <article class="step-card">
               <span class="step-card__number">02</span>
-              <div class="step-card__icon" aria-hidden="true">▣</div>
-              <h3>Usá tu dirección</h3>
+              <div class="step-card__icon" aria-hidden="true">↗</div>
+              <h3>Comprá con esos datos</h3>
               <p>
-                Recibí tus compras en tu casilla y seguí el proceso con nuestro
-                equipo por WhatsApp.
+                Usá la dirección de envío y el formato que te dio VeloBox. Si
+                dudás sobre el producto, consultá antes de pagar.
               </p>
               <a
-                href="https://wa.me/595971390000?text=Hola%20VeloBox%2C%20quiero%20mi%20direcci%C3%B3n%20de%20casilla."
+                href="https://wa.me/595971390000?text=Hola%20VeloBox%2C%20quiero%20consultar%20un%20producto%20antes%20de%20comprarlo."
                 target="_blank"
                 rel="noopener noreferrer"
-                >Pedí los datos <span aria-hidden="true">→</span></a
+                >Consultar producto <span aria-hidden="true">↗</span></a
               >
             </article>
             <article class="step-card">
               <span class="step-card__number">03</span>
-              <div class="step-card__icon" aria-hidden="true">⌖</div>
-              <h3>Retirá en Paraguay</h3>
+              <div class="step-card__icon" aria-hidden="true">#</div>
+              <h3>Compartí tu guía</h3>
               <p>
-                Cuando tu paquete esté listo, coordiná el retiro en el punto más
-                conveniente para vos.
+                Cuando la tienda despache, enviá tu número de seguimiento por
+                WhatsApp para facilitar la consulta del paquete.
+              </p>
+              <a href="#retiros"
+                >Consultar mi envío <span aria-hidden="true">→</span></a
+              >
+            </article>
+            <article class="step-card">
+              <span class="step-card__number">04</span>
+              <div class="step-card__icon" aria-hidden="true">✓</div>
+              <h3>Coordiná el retiro</h3>
+              <p>
+                Cuando te confirmemos que está disponible, consultá el punto y
+                horario. Pagás el flete al retirar.
               </p>
               <a href="#retiros"
                 >Ver puntos de retiro <span aria-hidden="true">→</span></a
               >
             </article>
           </div>
+          <aside class="address-callout">
+            <div class="address-callout__copy">
+              <span class="address-callout__icon" aria-hidden="true">⌖</span>
+              <div>
+                <span class="address-callout__label">ANTES DE PAGAR</span>
+                <h3>Primero, tu casilla. Después, la compra.</h3>
+                <p>
+                  Indicá si vas a comprar en USA o China y te compartimos la
+                  dirección correcta y cómo completar el envío. Confirmá la
+                  disponibilidad y las condiciones del producto antes de cerrar
+                  la compra.
+                </p>
+              </div>
+            </div>
+            <a
+              class="button button--primary"
+              href="https://wa.me/595971390000?text=Hola%20VeloBox%2C%20quiero%20pedir%20mi%20direcci%C3%B3n%20de%20casilla%20para%20USA%20o%20China."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Pedir mi dirección <span aria-hidden="true">↗</span></a
+            >
+          </aside>
         </div>
       </section>
 
@@ -1114,14 +1150,36 @@
               target="_blank"
               rel="noopener noreferrer"
               >Consultar por WhatsApp <span aria-hidden="true">↗</span></a
-            ><a
-              class="pickup__track"
-              href="https://wa.me/595971390000?text=Hola%20VeloBox%2C%20quiero%20consultar%20el%20seguimiento%20de%20mi%20paquete."
-              target="_blank"
-              rel="noopener noreferrer"
-              >¿Ya tenés un número de guía? Consultá el estado por WhatsApp
-              <span aria-hidden="true">↗</span></a
             >
+            <div class="tracking-lookup" aria-labelledby="tracking-title">
+              <h3 id="tracking-title">Consultá el estado de tu envío</h3>
+              <label for="tracking-number"
+                >Número de guía (si ya lo tenés)</label
+              >
+              <div class="tracking-lookup__row">
+                <input
+                  id="tracking-number"
+                  type="text"
+                  name="tracking-number"
+                  maxlength="120"
+                  autocomplete="off"
+                  placeholder="Ingresá tu número de guía"
+                  aria-describedby="tracking-note"
+                />
+                <a
+                  class="button button--primary"
+                  id="tracking-link"
+                  href="https://wa.me/595971390000?text=Hola%20VeloBox%2C%20quiero%20consultar%20el%20estado%20de%20mi%20env%C3%ADo."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Consultar por WhatsApp <span aria-hidden="true">↗</span></a
+                >
+              </div>
+              <small id="tracking-note">
+                WhatsApp abrirá el mensaje preparado. No es rastreo en tiempo
+                real; revisá y enviá la consulta desde la aplicación.
+              </small>
+            </div>
           </div>
           <div class="pickup-card">
             <div class="pickup-card__head">
@@ -1138,7 +1196,8 @@
               ><span>Pedro Juan Caballero</span>
             </div>
             <div class="pickup-card__foot">
-              <span class="live-dot"></span> Consultá el punto más cercano a vos
+              <span class="live-dot"></span> Confirmá dirección, horario y
+              disponibilidad antes de ir.
             </div>
           </div>
         </div>
@@ -1170,6 +1229,15 @@
             >
           </div>
           <div class="faq-list">
+            <details class="faq-item">
+              <summary>¿Cómo consigo la dirección de mi casilla?</summary>
+              <p>
+                Escribinos antes de comprar e indicá si necesitás casilla para
+                USA o China. Te compartimos la dirección y las instrucciones de
+                uso; confirmá con el equipo los datos antes de completar el
+                checkout.
+              </p>
+            </details>
             <details class="faq-item">
               <summary>¿Qué incluye la tarifa de USD 24 por kilo?</summary>
               <p>
@@ -1247,12 +1315,13 @@
           class="brand brand--footer"
           href="#inicio"
           aria-label="VeloBox, volver al inicio"
-          ><span class="brand__mark" aria-hidden="true"
-            ><span></span><span></span></span
-          ><span class="brand__word"
-            >Velo<span>Box</span><small>TU MUNDO MÁS CERCA</small></span
-          ></a
-        >
+          ><img
+            class="brand__logo"
+            src="logo-velobox.webp"
+            width="1000"
+            height="379"
+            alt=""
+        /></a>
         <p>Del mundo a Paraguay,<br />con vos en cada paso.</p>
         <a
           class="footer__phone"
@@ -1260,7 +1329,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span aria-hidden="true">◉</span> +595 971 390 000</a
-        ><a class="back-top" href="#inicio">Volver arriba ↑</a>
+        >
+        <a class="back-top" href="#inicio">Volver arriba ↑</a>
       </div>
       <div class="container footer__bottom">
         <span

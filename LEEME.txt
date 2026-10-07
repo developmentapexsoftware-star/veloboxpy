@@ -1,22 +1,15 @@
 VELOBOX — LANDING PAGE ESTÁTICA
 
-ARCHIVOS
-- index.html: estructura y contenido de la página.
-- styles.css: estilos y diseño adaptable.
-- script.js: menú móvil, calculadora de flete y efectos de interfaz.
-- favicon.svg: icono del sitio.
-- hero-logistica.webp, mapa-mundi.svg y las imágenes de productos: recursos visuales.
+CONTENIDO
+El sitio incluye index.html, styles.css, script.js, el logo original optimizado (logo-velobox.webp), favicon, mapa, imágenes de producto e instrucciones. Todo queda en la misma carpeta, sin subcarpetas.
 
 USO
-1. Descomprimí todos los archivos en una misma carpeta, sin mover las imágenes ni el mapa.
-2. Abrí index.html en un navegador. Para probarlo como un sitio local, podés iniciar en esta carpeta: python3 -m http.server 8000
-3. Para publicarlo, subí juntos los archivos del ZIP a la carpeta raíz de tu hosting estático.
+Descomprimí todos los archivos juntos y abrí index.html en el navegador. Para probarlo localmente podés ejecutar `python3 -m http.server 8000` desde esa carpeta. Para publicarlo, subí el contenido del ZIP a la carpeta raíz de un hosting estático.
+
+CÓMO FUNCIONA
+Primero solicitá por WhatsApp la casilla de USA o China y las instrucciones; después comprá con los datos confirmados, compartí el número de guía si lo tenés y coordiná el retiro. Las direcciones exactas y los horarios de retiro se confirman con VeloBox; no están inventados ni publicados en esta landing.
 
 DETALLES IMPORTANTES
-- Los enlaces directos a WhatsApp están configurados con el número +595 971 390 000.
-- La referencia de USD 24/kg corresponde al flete desde Estados Unidos; la calculadora es estimativa, no una cotización final.
-- El sitio no incluye seguimiento en vivo: las consultas de paquetes se hacen por WhatsApp.
-- Estados Unidos y China se muestran como orígenes publicados; Alemania e India son puntos de referencia para consultar. Las líneas del mapa son ilustrativas.
-- Agroinsumos y equipos pesados o de alto consumo se deben confirmar caso por caso. Para agroinsumos, verificá los requisitos vigentes con SENAVE antes de comprar.
-- Las fuentes tipográficas se cargan desde Google Fonts cuando hay internet. El sitio conserva alternativas de sistema si no están disponibles.
-- Para personalizar textos, editá index.html. Mantené los nombres de archivo de las imágenes o actualizá sus rutas en el HTML/CSS.
+Los enlaces directos a WhatsApp usan el número +595 971 390 000. La referencia de USD 24/kg corresponde al flete desde Estados Unidos y la calculadora es estimativa, no una cotización final. El campo de número de guía prepara una consulta en WhatsApp; el sitio no hace seguimiento en tiempo real. Estados Unidos y China se muestran como orígenes publicados; Alemania e India son puntos de referencia para consultar. Agroinsumos y equipos pesados o de alto consumo deben confirmarse caso por caso, y hay que verificar los requisitos vigentes de SENAVE antes de comprar.
+
+Para personalizar textos, editá index.html; para estilos, styles.css; para interacciones, script.js. Conservá los nombres de los recursos o actualizá sus rutas. Google Fonts se carga cuando hay conexión; el sitio mantiene fuentes de respaldo.

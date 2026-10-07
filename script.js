@@ -86,6 +86,22 @@
   weightInput?.addEventListener("change", updateQuote);
   updateQuote();
 
+  const trackingInput = document.querySelector("#tracking-number");
+  const trackingLink = document.querySelector("#tracking-link");
+  function updateTrackingLink() {
+    if (!trackingLink) return;
+    const guide = (trackingInput?.value ?? "")
+      .trim()
+      .replace(/\s+/g, " ")
+      .slice(0, 120);
+    const message = guide
+      ? `Hola VeloBox, quiero consultar el estado de mi envío. Mi número de guía es ${guide}.`
+      : "Hola VeloBox, quiero consultar el estado de mi envío. Todavía no tengo el número de guía.";
+    trackingLink.href = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
+  }
+  trackingInput?.addEventListener("input", updateTrackingLink);
+  updateTrackingLink();
+
   const year = document.querySelector("#year");
   if (year) year.textContent = String(new Date().getFullYear());
 })();
