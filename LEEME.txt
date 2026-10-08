@@ -1,7 +1,7 @@
 VELOBOX — LANDING PAGE ESTÁTICA
 
 CONTENIDO
-El sitio incluye index.html, styles.css, script.js, el logo original optimizado (logo-velobox.webp), favicon, mapa, imágenes de producto e instrucciones. Todo queda en la misma carpeta, sin subcarpetas.
+El sitio incluye index.html, styles.css, script.js, el logo original optimizado (logo-velobox.webp), favicon, mapa, imágenes de producto (fotos de catálogo tech-*.webp en 640 y 1000 px, todas WebP optimizadas) e instrucciones. Todo queda en la misma carpeta, sin subcarpetas.
 
 USO
 Descomprimí todos los archivos juntos y abrí index.html en el navegador. Para probarlo localmente podés ejecutar `python3 -m http.server 8000` desde esa carpeta. Para publicarlo, subí el contenido del ZIP a la carpeta raíz de un hosting estático.
@@ -10,6 +10,6 @@ CÓMO FUNCIONA
 Primero solicitá por WhatsApp la casilla de USA o China y las instrucciones; después comprá con los datos confirmados, compartí el número de guía si lo tenés y coordiná el retiro. Las direcciones exactas y los horarios de retiro se confirman con VeloBox; no están inventados ni publicados en esta landing.
 
 DETALLES IMPORTANTES
-Los enlaces directos a WhatsApp usan el número +595 971 390 000. La referencia de USD 24/kg corresponde al flete desde Estados Unidos y la calculadora es estimativa, no una cotización final. El campo de número de guía prepara una consulta en WhatsApp; el sitio no hace seguimiento en tiempo real. Estados Unidos y China se muestran como orígenes publicados; Alemania e India son puntos de referencia para consultar. Agroinsumos y equipos pesados o de alto consumo deben confirmarse caso por caso, y hay que verificar los requisitos vigentes de SENAVE antes de comprar.
+Los enlaces directos a WhatsApp usan el número +595 973 424 610. La referencia de USD 24/kg corresponde al flete desde Estados Unidos y la calculadora es estimativa, no una cotización final. El campo de número de guía prepara una consulta en WhatsApp; el sitio no hace seguimiento en tiempo real. Estados Unidos y China se muestran como orígenes publicados; Alemania e India son puntos de referencia para consultar. Agroinsumos y equipos pesados o de alto consumo deben confirmarse caso por caso, y hay que verificar los requisitos vigentes de SENAVE antes de comprar.
 
 Para personalizar textos, editá index.html; para estilos, styles.css; para interacciones, script.js. Conservá los nombres de los recursos o actualizá sus rutas. Google Fonts se carga cuando hay conexión; el sitio mantiene fuentes de respaldo.

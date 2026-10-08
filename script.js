@@ -62,7 +62,7 @@
   const weightInput = document.querySelector("#weight");
   const estimate = document.querySelector("#estimate");
   const quoteLink = document.querySelector("#quote-link");
-  const waNumber = "595971390000";
+  const waNumber = "595973424610";
   const formatter = new Intl.NumberFormat("es-PY", {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
